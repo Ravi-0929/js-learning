@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:serif , 'lato';
+}
+
+body{
+    background-color: #2d1e6b;
+    box-sizing: border-box;
+}
+/* header{
+
+} */
+
+.nav-container{
+    margin: 0 auto;
+    width: 80%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    font-size: 20px;
+}
+.item-list ul{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+.main-header{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    position: relative;
+}
+
+.main-header .left-part{
+    position: absolute;
+    width: 40%;
+    top: 100px ;
+    left: 10%; 
+    height: 100%;
+    color: white;
+   
+}
+
+.main-header .left-part .big-text{
+    font-size: 70px;
+    color: white;
+    font-weight: 900;
+}
+
+.main-header .left-part #overview{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    gap: 15px;
+}
+.main-header .left-part #overview .overview-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-header .left-part #overview .overview-items h4{
+  
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.gradient-text{
+    color:#ff00f2;
+}
+
+.main-header .left-part #overview .overview-items p{
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+.main-header .right-part{
+    width: 40%;
+    height: 10%;
+    z-index: -10;
+   
+}
+.main-header .right-part img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    margin-top: 5vh;
+    border-radius: 50%;
+}
+
+.buttons{
+    display: flex;
+
+}
+
+.buttons .btn{
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: 1px solid #7d63f1;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+}
+.buttons .btn1{
+    background: #2d1e6b;
+    background: linear-gradient(45deg, #7d63f1 6%,#2c2c94 28%, #f805d0 97%);
+
+}
+
+.band{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 100px;
+    color: white;
+    transform: rotate(-3deg);
+    border: 1px solid #ffffff40;
+    background: #ffffff40;
+    font-size: 25px;
+    font-weight: 900;
+    box-shadow: 0 80px 32px 0 rgb( 31 , 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+}
+.band i{
+    height: 25px;
+    width: 25px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <input type="text" placeholder="enter your city" id="input" class="header_input">
+
+            <button class="btn">Search</button>
+        </div>
+        
+        <div class="box">
+            <img src="weather.webp" alt="image">
+            <p id="temp">32<sup>0C</sup></p>
+            <h3 id="detail">Light rain</h3>
+        </div>
+
+        <div class="detail-box">
+            <div class="humidity">
+                <p id="hum">45<span>%</span></p>
+            </div>
+            <div class="wind-speed">
+                <p id="speed">45<span>KM/hr</span></p>
+            </div>
+        </div>
+    </div>    
+    <script src="script.js"></script>
+</body>
+</html>

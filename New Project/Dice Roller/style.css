@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+html, body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box > div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 10px;
+    border-radius: 5px;
+}
+.one, .two , .three , .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+    position: relative;
+    opacity: 0.5;
+}
+.six{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 5px;
+    opacity: 0.5;
+}
+.five{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(3 , 1fr);
+    justify-items: center;
+    align-items: center;
+    opacity: 0.5;
+}
+.five div:nth-child(1){grid-column: 1; grid-row: 1;}
+.five div:nth-child(2){grid-column: 3; grid-row: 1;}
+.five div:nth-child(3){grid-column: 2; grid-row: 2;}
+.five div:nth-child(4){grid-column: 1; grid-row: 3;}
+.five div:nth-child(5){grid-column: 3; grid-row: 3;}
+
+.four{
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.three{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    justify-items: center;
+    align-items: center;
+}
+.three div:nth-child(1){grid-column: 1; grid-row: 1;}
+.three div:nth-child(2){grid-column: 3; grid-row: 1;}
+.three div:nth-child(3){grid-column: 2; grid-row: 2;}
+.one > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+}
+.two > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+.three > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+.four > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+.five > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+.six > div{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: black;
+    margin: 5px;
+}
+
+#btn{
+    margin-bottom: 200px;
+    height: 50px;
+    width: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    border-radius: 7px;
+    cursor: pointer;
+}
+#btn:hover{
+    opacity: 0.3;
+}
+
+#lbl{
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: 800;
+}

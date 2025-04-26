@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn{
+    height: 50px;
+    width: 110px;
+    border-radius: 10px;
+    font-family: fantasy;
+    font-weight: 900;
+    font-size: 25px;
+
+}
+
+#btn:hover{
+    color: green
+}
+
+
+#container{
+    height: 100px;
+    width: 200px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+#label{
+    font-family: fantasy;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#label:hover{
+    color: blue;
+}

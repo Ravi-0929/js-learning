@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 400px;
+    height: fit-content;
+    background-color: blue;
+}
+.header{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+}
+
+.header #input{
+    height: 20px;
+    width: 350px;
+    background-color: rgb(117, 171, 171);
+    font-weight: 700;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header #input::placeholder{
+    font-size: 20px;
+    color: black;
+    text-transform: capitalize;
+}
+.btn{
+    color: black;
+    border-radius: 5px;
+    font-size: 14.5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover{
+    background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff9900,
+    #33cc33,
+    #00ccff,
+    #6600cc,
+    #ff0066,
+    #ff0000
+  );
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    margin: 5px 5px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.box #temp{
+    font-size: 50px;
+    font-weight: 800;
+}
+.box #temp sup , .humidity span, .wind-speed span {
+    font-size: 25px;
+    font-weight: 800;
+}
+.box h3{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.detail-box{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 20px;
+}
+.detail-box  .humidity, .wind-speed{
+    font-size: 45px;
+    font-weight: 900;
+}
